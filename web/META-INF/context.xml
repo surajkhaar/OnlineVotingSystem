@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/OnlineVotingSystem">
+  <Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxIdle="10" maxTotal="20" maxWaitMillis="-1" name="jdbc/votingdb" password="Suraj@222" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/Voters" username="root"/>
+</Context>

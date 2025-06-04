@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>RegVoters</servlet-name>
+        <servlet-class>RegVoters</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RegVoters</servlet-name>
+        <url-pattern>/RegVoters</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Vlogin</servlet-name>
+        <servlet-class>Vlogin</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Vlogin</servlet-name>
+        <url-pattern>/Vlogin</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>Result</servlet-name>
+    <servlet-class>Result</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Result</servlet-name>
+    <url-pattern>/Result</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>AdminCheck</servlet-name>
+    <servlet-class>AdminCheck</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AdminCheck</servlet-name>
+    <url-pattern>/AdminCheck</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>CastVote</servlet-name>
+    <servlet-class>CastVote</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>CastVote</servlet-name>
+    <url-pattern>/CastVote</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>AddCandidate</servlet-name>
+    <servlet-class>AddCandidate</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AddCandidate</servlet-name>
+    <url-pattern>/AddCandidate</url-pattern>
+</servlet-mapping>
+
+</web-app>

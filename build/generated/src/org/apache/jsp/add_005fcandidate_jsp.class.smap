@@ -1,0 +1,10 @@
+SMAP
+add_005fcandidate_jsp.java
+JSP
+*S JSP
+*F
++ 0 add_candidate.jsp
+add_candidate.jsp
+*L
+1,30:44
+*E
